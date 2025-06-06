@@ -2,8 +2,15 @@
 @import "tailwindcss";
 
 :root {
+  --teste1: #0F1A24;
+  --teste2: #0c131acc;
+
+}
+
+@theme {
   --background: #0F1A24;
   --foreground: #ededed;
+  --color-darker: #0c131acc;
 }
 
 * {
