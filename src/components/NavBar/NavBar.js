@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="bg-darker w-full h-16 flex justify-between items-center px-16 border-b-1 border-gray-200 sticky top-0">
+    <nav className="bg-primary-dark w-full h-16 flex justify-between items-center px-16 border-b-1 border-gray-200 sticky top-0">
         <Link href="/" className="text-2xl font-bold">
         <span>&lt;Maick Duarte /&gt;</span>
         </Link>

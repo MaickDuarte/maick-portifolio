@@ -3,14 +3,19 @@
 
 :root {
   --teste1: #0F1A24;
-  --teste2: #0c131acc;
+  --teste2: #ededed;
 
 }
 
 @theme {
-  --background: #0F1A24;
-  --foreground: #ededed;
-  --color-darker: #0c131acc;
+  --color-primary: #0F1A24;
+  --color-primary-dark: #0c131acc;
+  --color-primary-light: #1e2939;
+
+  --color-gray-light: #ededed;
+  --color-gray-medium: #99a1af;
+  --color-gray-button: #364153;
+  --color-gray-button-hover: #4a5565;
 }
 
 * {
@@ -20,6 +25,6 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--color-primary);
+  color: var(--color-gray-light);
 }
