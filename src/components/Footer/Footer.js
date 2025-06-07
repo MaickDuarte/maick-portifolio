@@ -9,11 +9,11 @@ export default function Footer() {
             <div className="w-max mx-auto p-4">
             <div className="text-white text-2xl font-bold mb-6">
               <span className="text-gray-light">
-                Maick duarte
+                Maick Duarte
               </span>
             </div>
             <p className="text-gray-medium text-lg max-w-md mb-8">
-              Desenvolvedor de Software, amante de tecnologia, e pronto para inovar.
+              Desenvolvedor de Software, amante por tecnologia, e pronto para inovar.
             </p>
             <div className="flex gap-6 justify-center">
               <Link href="https://www.linkedin.com/in/maick-alves-duarte-1ba0ba1b8/" target="_blank"  className="text-gray-medium hover:text-gray-light hover:scale-110 duration-100 transiction-all">
